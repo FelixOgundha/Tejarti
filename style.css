@@ -39,8 +39,27 @@ Version: 0.1
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
-
-
+/*============================
+ besoft Custome area Css
+==============================*/
+.first-section{
+    background-image: url('assets/Background/main-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.first-section::before{
+    content: "";
+    display: block;
+    background-color: white;
+    opacity: 85%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;bottom: 0; right: 0;left: 0;
+    z-index: -1;
+}
 /*============================
  besoft top menu area Css
 ==============================*/
@@ -171,6 +190,10 @@ nav.besoft_menu span {
 }
 .style-two .besoft_menu > ul > li > a:hover {
     background-position: 0;
+}
+.besoft_menu{
+    display: flex;
+    justify-content: end;
 }
 .style-two nav.besoft_menu span {
     font-size: 10px;
