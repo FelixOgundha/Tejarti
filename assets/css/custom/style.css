@@ -1,0 +1,14 @@
+.slider-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+.slider-content h1, .slider-content p, .slider-content a {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
