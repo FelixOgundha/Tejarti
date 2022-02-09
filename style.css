@@ -52,6 +52,16 @@ Version: 0.1
     flex-direction:column;
     justify-content:space-around;
 }
+.besoft-service-content li{
+    font-size: 14px;
+    margin:0px;
+    padding: 0px;
+}
+.besoft-service-content ul{
+    font-size: 14px;
+    margin:0px;
+    padding: 0px;
+}
 .tejarti-services{
     display: grid;
     grid-template-columns:repeat(3,1fr);
@@ -974,7 +984,7 @@ span.flaticon-multiply i {
 }
 
 .slider-area.slider2{
-    background: url(assets/images/slider/slider4.png);
+    background: url(assets/Background/sample-2.png);
 }
 
 .slider-content h4 {
@@ -988,16 +998,16 @@ span.flaticon-multiply i {
 }
 .slider-content h1 {
     font-size: 80px;
-    color:  var(--secondary-color);;
+   color: white;
     line-height: 72px;
     animation: 1s 1.6s fadeInLeft both;
-    text-align: center;
+   
 }
 .slider-content p {
-    color:  var(--secondary-color);;
+    color:  white;
     margin-top: 14px;
     font-size: 18px;
-    text-align: center;
+
     animation: 1s 1.6s fadeInRight both;
 }
 .slider-content-button{
