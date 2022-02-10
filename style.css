@@ -94,7 +94,7 @@ Version: 0.1
     content: "";
     display: block;
     background-color: white;
-    opacity: 80%;
+    opacity: 60%;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -106,7 +106,7 @@ Version: 0.1
     background-image: url('assets/Background/main-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 110px;
+
     position: relative;
     z-index: 0;
     display:grid;
@@ -984,7 +984,7 @@ span.flaticon-multiply i {
 }
 
 .slider-area.slider2{
-    background: url(assets/Background/sample-2.png);
+    background: url(assets/Background/sample-3.png);
 }
 
 .slider-content h4 {
@@ -3574,7 +3574,7 @@ transform: translateX(0);
 <!-- Start technology area Css -->
 <!-- ============================================================== -->*/
 .technology-area {
-    background: url(assets/images/resource/technology.jpg);
+    background: url(assets/Background/main-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3626,14 +3626,14 @@ transform: translateX(0);
     color: #c79413;
 }
 /*style three*/
-.style-three.technology-area {
-    background: url(assets/images/resource/tech.jpg);
+/* .style-three.technology-area {
+ 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 100px 0px 176px;
     overflow: hidden;
-}
+} */
 .style-three .technology-icon i {
     display: inline-block;
     color: #f9b701;
