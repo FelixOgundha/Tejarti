@@ -3722,10 +3722,11 @@ transform: translateX(0);
 }
 /*styl five*/
 .style-five.technology-area {
-    background: url(assets/images/resource/tech.jpg);
+    /* background: url(assets/images/resource/tech.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
+    background-color:green;
     padding: 100px 0px 200px;
     overflow: hidden;
 }
