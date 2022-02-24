@@ -39,10 +39,37 @@ Version: 0.1
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
+ /* 
+    1. #715a1e --sand gold
+    2. #c0902a --light gold
+    3. #cda451 --very light gold
+    4. #1e341a --dark green
+    5. #5a6a3c --light green
+    6. #60050e --maroon
+    7. #a21f25 --light maroon
+    
+    h1   -   Dark Green
+    subheading - Dark Green
+    paragraph - light green
 
+
+    Top Header - light maroon
+    Why work - Maroon
+    counter - Maroon*/
+
+    .main-tejarti-heading{
+        color:var(--dark-green) !important;
+    }
    :root{
        --primary-color:#c79413;
        --secondary-color:#526189;
+       --sand-gold:#715a1e;
+       --ligt-gold:#c0902a ;
+       --very-light-gold: #cda451;
+       --dark-green:#1e341a;
+       --light-green:#5a6a3c;
+       --maroon:#60050e;
+       --light-maroon:#a21f25;
    }
 /*============================
  besoft Custome area Css
