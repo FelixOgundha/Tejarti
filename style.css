@@ -55,7 +55,11 @@ Version: 0.1
 
     Top Header - light maroon
     Why work - Maroon
-    counter - Maroon*/
+    counter - Maroon
+    
+ */
+ 
+/*                        */
 
     .main-tejarti-heading{
         color:var(--dark-green) !important;
@@ -79,6 +83,17 @@ Version: 0.1
     flex-direction:column;
     justify-content:space-around;
 }
+.tejarti-body p{
+    color: var(--light-green) !important;
+
+}
+.tejarti-body h5 {
+    color: var(--dark-green) !important;
+}
+.tejarti-body h4{
+    color: var(--dark-green) !important;
+}
+
 .besoft-service-content li{
     font-size: 14px;
     margin:0px;
@@ -179,7 +194,7 @@ Version: 0.1
  besoft top menu area Css
 ==============================*/
 .header-top-area {
-    background: #232434;
+    background: var(--maroon);
     padding: 13px 0;
 }
 .besoft-header-menu-address ul {
@@ -1972,7 +1987,7 @@ border-width: 1px;
     display: inline-block;
     position: absolute;
     z-index: 1;
-    background: #232333;
+    background: var(--light-maroon);
     width: 185px;
     height: 131px;
     text-align: center;
@@ -2563,7 +2578,8 @@ animation-duration: 2.5s;
 <!-- Start why choose us area Css -->
 <!-- ============================================================== -->*/
 .why-choose-us-area {
-    background: url(assets/images/resource/why.jpg);
+    /* background: url(assets/images/resource/why.jpg); */
+    background-color: var(--maroon);
     padding: 100px 0 110px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2572,6 +2588,7 @@ animation-duration: 2.5s;
     display:grid;
     align-content: center;
 }
+
 .why-choose-us-box {
     position: relative;
     z-index: 1;
@@ -3019,7 +3036,8 @@ animation-duration: 2.5s;
     position: relative;
     z-index: 1;
     margin-top: 0px;
-    background: url(assets/images/resource/counter1.png);
+    /* background: url(assets/images/resource/counter1.png); */
+    background-color: var(--maroon);
     padding: 60px 20px 24px;
     box-shadow: 0 2px 22px rgb(0 0 0 / 20%);
 }
@@ -5602,6 +5620,11 @@ p.style-three {
     background: #c79413;
     padding: 48px 0 38px;
 }
+.subscribe-area-2 {
+    background: var(--maroon);
+    color: white;
+    padding: 48px 0 38px;
+}
 .subscribe-title h1 {
     font-size: 45px;
     margin-bottom: 11px;
@@ -5766,7 +5789,7 @@ p.style-three {
 <!-- Start footer area Css -->
 <!-- ============================================================== -->*/
 .footer-middle {
-    background: #232434;
+    background:  var(--maroon);
     padding: 96px 0 0;
 }
 .company-info-desc p {
@@ -6054,7 +6077,7 @@ h4.widget-title {
 .dreamit-section-title h4 {
     font-size: 16px;
     font-family: 'Istok Web';
-    color: var(--secondary-color);
+    color: var(--dark-green);
 }
 .card {
     position: relative;
