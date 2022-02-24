@@ -2655,7 +2655,12 @@ animation-duration: 2.5s;
     border-radius: 0 0 85px 0;
 }
 .why-choose-us-box:hover{
-    background: #c79413;
+    background: var(--light-maroon);
+    color: white !important;
+}
+.why-choose-us-box p:hover{
+
+    color: white !important;
 }
 .why-choose-us-box:hover .why-choose-us-title h2,
 .why-choose-us-box:hover .why-choose-us-title p{
