@@ -87,7 +87,14 @@ Version: 0.1
     color: var(--light-green) !important;
 
 }
+.tejarti-body ol li{
+    color: var(--light-green) !important;
+
+}
 .tejarti-body h5 {
+    color: var(--dark-green) !important;
+}
+.tejarti-subheading{
     color: var(--dark-green) !important;
 }
 .tejarti-body h4{
@@ -279,8 +286,8 @@ a.besoft-color i {
     margin: 30px 13px;
     -webkit-transition: .5s;
     position: relative;
-    color: #526189;
-    background: linear-gradient( to right, #c79413, #c79413, 50%, #526189 50%);
+    color: yellow;
+    background: linear-gradient( to right, #c79413, #c79413, 50%, var(--light-maroon) 50%);
     font-size: 19px;
     font-weight: 600;
     font-family: 'Rajdhani';
@@ -5902,7 +5909,7 @@ h4.widget-title {
     padding-top: 22px;
 }
 .row.footer-bottom {
-    border-top: 1px solid #342d4d;
+    border-top: 1px solid var(--ligt-gold);
     margin-top: 80px;
 }
 .footer-bottom-content-copy p {
