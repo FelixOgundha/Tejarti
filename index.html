@@ -40,6 +40,12 @@
     <link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen" />
 	<!-- modernizr js -->	
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<script>
+		$('#myModal').on('shown.bs.modal', function () {
+			$('#myInput').trigger('focus')
+		})
+	</script>
 </head>
 <body>
 <!--==================================================-->
@@ -344,7 +350,7 @@
 <!--==================================================-->
 
 
-
+468849
 
 
 
@@ -388,7 +394,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6 col-sm-12">
-								<div class="quiz d-flex">
+								<div class="quiz ">
 									<p>Do you have already online business? (yes/no)</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<div class="form-check">
 										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
@@ -406,7 +412,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6 col-sm-12">
-								<div class="quiz d-flex">
+								<div class="quiz ">
 									<p>What is your Prefered Communication Language</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<div class="form-check">
 										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
@@ -477,7 +483,7 @@
 											<label class="form-check-label" for="inlineCheckbox2">Training and Workshop
 											</label>
 										  </div>
-									  </div>
+									</div>
 									  <br>
 									</div>
 								  
@@ -491,7 +497,7 @@
 										<input type="text" name="phone" placeholder="Others">
 									</div>
 								</div>
-										<div class="col-lg-12 col-sm-12">
+							<div class="col-lg-12 col-sm-12">
 								<div class="quiz d-flex">
 									<p>How did you hear about Tejarti?</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									<div class="form-check">
@@ -666,12 +672,12 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12">
 			    <div class="contact-form-box" >	
-					<form id="contact_form" action="mail.php" method="POST">
+					<!-- <form id="contact_form" action="mail.php" method="POST"> -->
 						<div class="from-box">
 						
-							<button style="background-color: #c79413;" >Contact us today!</button>
+							<button style="background-color: #c79413;" data-toggle="modal" data-target="#exampleModalCenter" >Contact us today!</button>
 						</div>
-					</form>
+					<!-- </form> -->
 					<p class="form-message"></p>
 				</div>
 			</div>
@@ -704,7 +710,7 @@
 				</div>
 				<div class="row">
 					
-					<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="technology-single-icon-box">
 							<div class="technology-icon">
 								<img src="./assets/flags/uae.jpg" alt="" srcset=""  width="100" height="auto">
@@ -716,7 +722,7 @@
 					</div>
 				
 				
-					<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="technology-single-icon-box">
 							<div class="technology-icon">
 								<img src="./assets/flags/egypt.png" alt="" srcset=""  width="100" height="auto">
@@ -726,7 +732,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="technology-single-icon-box">
 							<div class="technology-icon">
 								<img src="./assets/flags/australia.jpg" alt=""  width="100" height="auto">
@@ -736,13 +742,33 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="technology-single-icon-box">
 							<div class="technology-icon">
 								<img src="./assets/flags/usa.jpg" alt="" width="100" height="auto">
 							</div>
 							<div class="technology-title">
-								<h3>United States</h3>
+								<h3>US</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="technology-single-icon-box">
+							<div class="technology-icon">
+								<img src="./assets/flags/ksa.jpg" alt="" width="100" height="auto">
+							</div>
+							<div class="technology-title">
+								<h3>KSA</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="technology-single-icon-box">
+							<div class="technology-icon">
+								<img src="./assets/flags/EU.jpg" alt="" width="100" height="auto">
+							</div>
+							<div class="technology-title">
+								<h3>EU</h3>
 							</div>
 						</div>
 					</div>
@@ -757,6 +783,118 @@
 <!--==================================================-->
 <!-- End besoft technology Area -->
 <!--==================================================-->
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<form>
+				<div class="row">
+				  <div class="col-lg-6 col-sm-12">
+					<input type="text" class="form-control" placeholder="Full Name">
+				  </div>
+				  <div class="col-lg-6 col-sm-12">
+					<input type="text" class="form-control" placeholder="Company Name">
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 col-sm-12">
+					  <input type="text" class="form-control" placeholder="Email">
+					</div>
+					<div class="col-lg-6 col-sm-12">
+					  <input type="text" class="form-control" placeholder="Contact Number">
+					</div>
+					<br>
+					<div class="col-lg-12">
+						<p>Do you have already online business?</p>
+						<fieldset class="form-group">
+							<div class="row">
+							  <div class="col-sm-10">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								  <label class="form-check-label" for="gridRadios1">
+									Yes
+								  </label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								  <label class="form-check-label" for="gridRadios2">
+									No
+								  </label>
+								</div>
+							
+							  </div>
+							</div>
+						  </fieldset>
+					</div>
+					<div class="col-lg-12">
+						<p>What is your Prefered Communication Language?</p>
+						<fieldset class="form-group">
+							<div class="row">
+							  <div class="col-sm-10">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option1" checked>
+								  <label class="form-check-label" for="gridRadios3">
+									English
+								  </label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option2">
+								  <label class="form-check-label" for="gridRadios4">
+									Arabic
+								  </label>
+								</div>
+							
+							  </div>
+							</div>
+						  </fieldset>
+					</div>
+					<div class="col-lg-12">
+						<p>What are you looking for?</p>
+						<div class="col-sm-10">
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" id="gridCheck1">
+							  <label class="form-check-label" for="gridCheck1">
+								Example checkbox
+							  </label>
+							</div>
+						  </div>
+					</div>
+				  </div>
+				
+			  </form>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+ -->
+
+
+
+
+
+
+
+
 
 
 
@@ -1149,7 +1287,7 @@
 			<div class="col-lg-6 col-md-6">
 				<div class="footer-bottom-content">
 					<div class="footer-bottom-content-copy">
-						<p>© Copyright 2021 <span>Startuplex</span> All Rights Reserved.</p>
+						<p>© Copyright 2022 <span>Startuplex</span> All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
