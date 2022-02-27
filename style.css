@@ -2591,7 +2591,7 @@ animation-duration: 2.5s;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:60vh;
+    /* height:60vh; */
     display:grid;
     align-content: center;
 }
@@ -5743,7 +5743,7 @@ p.style-three {
 }
 /*focus color*/
 .contact-form-area.style-two {
-    padding: 90px 80px;
+    /* padding: 90px 80px; */
   
 }
 .style-two .from_box input {
@@ -5756,8 +5756,11 @@ p.style-three {
     padding: 7px 20px;
     display: block;
     width: 100%;
-    color: #00132b;
+    color: var(--light-green) !important;
     margin-bottom: 16px;
+}
+input{ 
+    color: var(--light-green) !important;
 }
 .style-two .from_box textarea {
     background: rgb(253, 222, 206);
